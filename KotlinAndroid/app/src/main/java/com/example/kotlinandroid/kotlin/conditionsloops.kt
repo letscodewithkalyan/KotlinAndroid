@@ -26,3 +26,23 @@ fun whenCondition(){
         else -> println("Not in range")
     }
 }
+
+fun checkScopedFunctions(){
+    //Let, also
+    var a: Int? = 10;
+    val b = a?.let { it + 3 };
+
+    //Apply, run
+
+}
+
+class MyPerson(var firstname: String){
+
+    constructor(firstname: String, secondName:String): this(firstname){
+
+    }
+    init {
+    }
+    fun  doSomething(){
+    }
+}

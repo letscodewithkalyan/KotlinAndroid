@@ -14,12 +14,12 @@ fun factorialForNumberOfZeros(n:Int) : Int{
         return 0;
     }
     var count = 0;
-    for(i in 5..n step 5){
-        var quetionet = n / 5;
-        if(quetionet < 1){
-            break;
-        }
-        count += quetionet;
+    // Keep dividing n by powers
+    // of 5 and update count
+    var i = 5
+    while (n / i >= 1) {
+        count += n / i
+        i *= 5
     }
     return count;
 }
