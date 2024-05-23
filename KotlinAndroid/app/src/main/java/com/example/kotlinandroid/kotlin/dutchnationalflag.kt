@@ -7,12 +7,12 @@ import java.util.Arrays
 //Sort it up without using another array
 
 fun main(){
-  val intarr = intArrayOf(0,1,0,2,1,1,1,0)
+  val intarr = arrayOf(0,1,0,2,1,1,1,0)
     sortItMap(intarr)
   println(Arrays.toString(intarr))
 }
 
-fun sortItMap(array: IntArray){
+fun sortItMap(array: Array<Int>){
     var lbound = 0
     var rbound: Int = array.count() - 1
     var current: Int = 0
