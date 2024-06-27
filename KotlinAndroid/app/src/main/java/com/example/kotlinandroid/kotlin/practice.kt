@@ -1,22 +1,8 @@
 package com.example.kotlinandroid.kotlin
 
 fun main(){
- println(isPalidrome("Length"))
     println(factorialNum(5))
     println(findNumberOfZerosInFactorial(35))
-}
-
-fun isPalidrome(input: String) : Boolean {
-    var start = 0;
-    var end = input.length - 1;
-    while (start < end){
-        if(input[start] != input[end]){
-            return  false;
-        }
-        start++;
-        end--;
-    }
-    return true;
 }
 
 fun factorialNum(input: Int): Int{

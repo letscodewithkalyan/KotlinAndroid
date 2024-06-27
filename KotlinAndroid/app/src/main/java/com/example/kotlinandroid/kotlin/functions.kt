@@ -15,6 +15,7 @@ fun forloop(){
 }
 
 fun evenNumbers(){
+
     val sum = {a: Int,b:Int -> a+b}
     println(sum(10,20))
     // For have variable in range/list
