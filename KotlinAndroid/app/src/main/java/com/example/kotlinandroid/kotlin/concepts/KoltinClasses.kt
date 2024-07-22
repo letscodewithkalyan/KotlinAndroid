@@ -1,4 +1,4 @@
-package com.example.kotlinandroid.kotlin
+package com.example.kotlinandroid.kotlin.concepts
 
 class person(var firstName: String, secondName: String){
     //no var or val in secondary constructor

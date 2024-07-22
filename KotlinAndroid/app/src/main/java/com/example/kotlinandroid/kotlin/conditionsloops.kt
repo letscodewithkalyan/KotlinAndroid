@@ -3,8 +3,8 @@ package com.example.kotlinandroid.kotlin
 import java.util.Scanner
 
 fun main() {
-    //greaterNumber()
-    whenCondition()
+    greaterNumber()
+    //whenCondition()
 }
 
 fun greaterNumber(){

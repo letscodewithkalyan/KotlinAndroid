@@ -1,8 +1,7 @@
-package com.example.kotlinandroid.kotlin
+package com.example.kotlinandroid.kotlin.concepts
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map

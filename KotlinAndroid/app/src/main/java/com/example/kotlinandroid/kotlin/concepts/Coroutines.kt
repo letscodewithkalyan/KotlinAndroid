@@ -1,6 +1,5 @@
-package com.example.kotlinandroid.kotlin
+package com.example.kotlinandroid.kotlin.concepts
 
-import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.async
@@ -9,7 +8,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
-import kotlin.coroutines.cancellation.CancellationException
 import kotlin.system.measureTimeMillis
 
 //Coroutines are concurrent design pattern the helps in android to run long running tasks asynchronously

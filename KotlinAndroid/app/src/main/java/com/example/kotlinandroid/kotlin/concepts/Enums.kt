@@ -1,4 +1,4 @@
-package com.example.kotlinandroid.kotlin
+package com.example.kotlinandroid.kotlin.concepts
 
 enum class Directions(degress: Int){
     SOUTH(0){

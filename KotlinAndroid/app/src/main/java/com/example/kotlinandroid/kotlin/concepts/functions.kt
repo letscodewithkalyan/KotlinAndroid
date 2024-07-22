@@ -1,4 +1,4 @@
-package com.example.kotlinandroid.kotlin
+package com.example.kotlinandroid.kotlin.concepts
 
 fun main(){
     functionLamdaTest()

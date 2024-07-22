@@ -1,5 +1,13 @@
 package com.example.kotlinandroid.kotlin
 
+
+
+fun main() {
+    println(factorial(5));
+    println(reverseNumber(5348))
+    println(fibonacci())
+}
+
 fun factorial(n: Int): Int {
     if (n == 0) {
         return 1;
@@ -7,11 +15,20 @@ fun factorial(n: Int): Int {
     return n * factorial(n - 1);
 }
 
-fun main() {
-    println(factorial(5));
-    println(reverseNumber(5348))
-    println(reverseString("Kalyan"))
+fun fibonacci(){
+    var t0: Int = 0
+    var t1: Int = 1
+    println(t0)
+    println(t1)
+
+    for (i in 0..10){
+        val sum = t0 + t1
+        t0 = t1
+        t1 = sum
+        println(sum)
+    }
 }
+
 
 //Reverse a number
 fun reverseNumber(num: Int): Int {
@@ -24,16 +41,3 @@ fun reverseNumber(num: Int): Int {
     return reverseNum;
 }
 
-fun reverseString(name: String): CharArray{
-    var charArray = name.toCharArray()
-    var start = 0;
-    var end = charArray.count() - 1
-    while (start < end){
-        val rem = charArray[start]
-        charArray[start] = charArray[end]
-        charArray[end] = rem
-        start++
-        end--
-    }
-    return charArray
-}

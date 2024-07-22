@@ -1,6 +1,6 @@
 package com.example.kotlinandroid.java;
 
-import com.example.kotlinandroid.kotlin.KotlinDemoKt;
+import com.example.kotlinandroid.kotlin.concepts.KotlinDemoKt;
 
 public class JavaDemo {
 
