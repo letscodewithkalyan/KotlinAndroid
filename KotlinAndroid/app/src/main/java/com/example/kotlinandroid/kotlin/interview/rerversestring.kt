@@ -4,9 +4,9 @@ import com.example.kotlinandroid.kotlin.reverseNumber
 
 fun main() {
     println(reverseString("kalyan"))
-    println(isPalindrome("mdm"))
     println(reverseWithoutSpecialCharacters("my@str@in#g"))
     println(reverseNumber(23456))
+    println(isPalindrome("mdm"))
 }
 
 //Loblaw
@@ -47,7 +47,7 @@ fun reverseString(str: String): CharArray {
 fun reverseNum(number: Int):  Int{
     var exactNum = number
     var reverseNum = 0
-    while (number>=0){
+    while (exactNum>=0){
         var quotient = exactNum % 10
         reverseNum = reverseNum * 10 + quotient
         exactNum = exactNum / 10

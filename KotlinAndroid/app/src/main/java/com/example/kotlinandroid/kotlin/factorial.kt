@@ -12,7 +12,7 @@ fun factorial(n: Int): Int {
     if (n == 0) {
         return 1;
     }
-    return n * factorial(n - 1);
+    return n * factorial( n - 1); // for negative numbers factorial is -1! = 1, -2! = 2, -3! = -6, -4! =24
 }
 
 fun fibonacci(){
